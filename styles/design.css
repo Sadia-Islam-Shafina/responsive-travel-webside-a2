@@ -315,9 +315,10 @@ header {
 }
 
 .two-box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap:none;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    gap: 10px;
+    display: flex;
 }
 
 .two-box img {
@@ -357,15 +358,78 @@ header {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-  
+
     padding-left: 20px;
 }
-.box3-third-part img{
+
+.box3-third-part img {
     margin-top: 20px;
     margin-left: 20px;
     width: 20px;
     height: 30px;
-    gap:10px;
+    gap: 10px;
+}
+
+
+/* ..............................forth section......................... */
+.f-title {
+    text-align: left;
+}
+
+.f-descri {
+    text-align: left;
+}
+
+.news-letter {
+    margin: 50px 135px;
+    border: 2px solid tomato;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+}
+
+.news-letter .f-input {
+    border: 0;
+    /* width: 160px;
+    height: 52px; */
+    padding-left: 10px;
+    /* color: rgba(19, 19, 24, 0.50); */
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-bottom: 10px;
+
+
+
+    color: rgba(19, 19, 24, 0.30);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.news-letter .last-btn {
+    border-radius: 8px;
+    background: #FF900E;
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 0;
+    width: 174px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* ...............for responsive ................... */
@@ -488,6 +552,17 @@ header {
         margin-right: 20px;
     }
 
+    /* ................section 3 ............ */
+    .two-box {
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-direction: column;
+    }
+
+    .box3-third-part {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
 }
 
 
@@ -504,6 +579,16 @@ header {
         flex-direction: column;
         height: auto;
         width: auto;
+    }
+
+    .two-box {
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-direction: column;
+    }
+
+    .box3-third-part {
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
 }
