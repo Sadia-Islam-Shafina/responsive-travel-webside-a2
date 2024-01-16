@@ -683,6 +683,11 @@ display: grid;
         margin-right: 50px;
         padding-left: 150px;
     }
+    .sale-70{
+        position:relative;
+        top:-230px;
+        left: 300px;
+    }
 /* ..........footer..... */
 .footer{
     width: 600px;
