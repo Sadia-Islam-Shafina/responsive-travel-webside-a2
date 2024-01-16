@@ -12,8 +12,9 @@
 
     color: #FF5400;
 }
-.nav-one{
-    display:flex;
+
+.nav-one {
+    display: flex;
     font-weight: 800;
     font-size: 32px;
     /* font-weight: 800; */
@@ -80,7 +81,7 @@ header {
 
 
 
-.bannar-title{
+.bannar-title {
     font-size: 50px;
     color: #FFF;
     font-weight: 800;
@@ -93,9 +94,10 @@ header {
     padding-right: 287px;
     text-align: center;
 
-    color:#FFF;
+    color: #FFF;
 }
-.bannar-describtion{
+
+.bannar-describtion {
     /* padding-top: 0px; */
     /* margin-top: 0px; */
     font-size: 16px;
@@ -106,23 +108,23 @@ header {
     padding-right: 287px;
     text-align: center;
 
-    color:#FFF;
+    color: #FFF;
 }
 
-.input-nd-dropdown-field{
+.input-nd-dropdown-field {
     border-radius: 10px;
     padding-top: 50px;
     padding-left: 185px;
     padding-right: 185px;
-    display:flex;
-    gap:24px;
+    display: flex;
+    gap: 24px;
     /* box-shadow:#FFFFFF ;
     outline-offset: 20px;
     outline-color: #FFFFFF;
     border-color: #FFFFFF; */
-    
 
-    
+
+
 }
 
 
@@ -139,6 +141,7 @@ header {
     font-size: 16px;
     font-weight: 400;
 }
+
 /* .when-select{
     border: 0;
     width: 174px;
@@ -153,7 +156,7 @@ header {
     color: rgba(19, 19, 24, 0.50);
     padding-right: 20px;
 } */
-.input-size{
+.input-size {
     border: 0;
     width: 174px;
     height: 52px;
@@ -165,7 +168,9 @@ header {
     /* font-size: 1rem; */
     font-size: 16px;
 }
-.main-input{  border: 0;
+
+.main-input {
+    border: 0;
     width: 160px;
     height: 52px;
     border-radius: 8px;
@@ -173,44 +178,50 @@ header {
     color: rgba(19, 19, 24, 0.50);
     padding-right: 20px;
     font-weight: 400;
-    font-size: 16px;}
+    font-size: 16px;
+}
+
 /* ...........................................section 1 ------------- */
-.first-part{
-   
+.first-part {
+
     margin: 50px 135px;
-    display:flex;
-    gap:80px;
+    display: flex;
+    gap: 80px;
 
 }
-.first-part .first-title{
-color: #131318;
-text-align:left;
-font-family: Mulish;
-font-size: 32px;
-font-weight: 800;
-}
-.first-part .first-description{
+
+.first-part .first-title {
     color: #131318;
-    text-align:left;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.first-part .first-description {
+    color: #131318;
+    text-align: left;
     font-family: Mulish;
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 }
-.first-part li{
+
+.first-part li {
     color: #131318;
-    text-align:left;
+    text-align: left;
     font-family: Mulish;
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 }
-.first-part  .img-first{
+
+.first-part .img-first {
     padding-top: 30px;
     width: 500px;
     height: 450px;
     flex-shrink: 0;
 }
 
-.first-part .btn-first{
+.first-part .btn-first {
     border-radius: 8px;
     background: #FF900E;
     background-color: #FF900E;
@@ -223,92 +234,276 @@ font-weight: 800;
     font-size: 16px;
     font-weight: 400;
 }
-/* ...............for responsive ................... */
-@media screen and (max-width:600px){
-  
 
-nav,
-.first-part
-{
-        flex-direction: column;
-
-}
-.bannar{
-
-padding-left: 0px;
-padding-right: 0px;
-margin:0px;
-width: 335px;
-height: 483px;
-}
-nav p img{
-    position: static;
-    width:"20";
+/* 
+...................section2 .......................................section2 */
+/* ....................section 2  ..Choose Your Destination............................ */
+.secound-part {
+    margin: 50px 135px;
 }
 
-.bannar .bannar-title{
-
-    padding-top: 80px;
-    padding-left: 28px;
-    padding-right: 28px;
+.snd-part-title {
+    /* align-items: center; */
+    color: #131318;
     text-align: center;
-    font-size:large;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+
 }
-.bannar .bannar-describtion{
-    padding-left: 28px;
-    padding-right: 28px;
+
+.snd-descri {
+    color: rgba(19, 19, 24, 0.70);
+
     text-align: center;
-    font-size:small; 
-}
-.bannar .input-nd-dropdown-field{
-    flex-direction: column;
-    padding-left: 45px;
-    padding-top: 0px;
-    margin-top: 0px;
-    /* width: 100%; */
-    height: auto;
-    width: 255px;
-    height: 52px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
-.input-nd-dropdown-field .input-size{ 
-     width: 255px;
-    height: 52px;
-    flex-shrink: 0; 
-  
-}
-.btn-primary{
-    width: 255px;
-    height: 52px;
-    flex-shrink: 0; 
-    padding-bottom: 20px;
-}
-.main-input{
-    width: 220px;
-    height: 52px;
-    flex-shrink: 0; 
-    padding-right: 24px;
-}
-
-/* ......................section 1................... */
-.first-part  .img-first{
-    width: 335px;
-    height: 342px;
+.secound-part .row1 {
+    padding-top: 20px;
+    width: 573px;
+    height: 300px;
     flex-shrink: 0;
-    margin-top: 0px;
-    /* margin-left: 20px; */
-    margin-right: 20px;
+    gap: 10px;
+    display: flex;
+
+
 }
 
+.secound-part .row2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    /* display:grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+}
+
+.secound-part .row2 .row2-1st-img {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.secound-part .row2 .row2-2nd-img {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.secound-part .row2 .row2-3rd-img {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.secound-part .row3 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
 
 
-@media screen and (min-width:992px) and (max-width:1200px){
+/* ...................section 3 why choose use ................... */
+.third-part {
+    margin: 50px 135px;
+}
+
+.two-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:none;
+}
+
+.two-box img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20px;
+    height: 30px;
+}
+
+.box1-third-part {
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 20px;
+}
+
+.box2-third-part {
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 20px;
+}
+
+.box3-third-part {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 500px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  
+    padding-left: 20px;
+}
+.box3-third-part img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20px;
+    height: 30px;
+    gap:10px;
+}
+
+/* ...............for responsive ................... */
+@media screen and (max-width:600px) {
+
+
+    nav,
+    .first-part,
+    .collage-img,
+    .row1,
+    .row2,
+    .row3 {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .collage-img {
+        height: auto;
+        /* width:100%; */
+        margin-right: 20px;
+    }
+
+    /* .secound-part  .row2 {
+        grid-template-columns: 1fr;
+    } */
+    .row1 {
+        width: 335px;
+        /* height: 176px; */
+        height: auto;
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+    .row2 {
+        width: 335px;
+        height: auto;
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+    row3 {
+        width: 335px;
+        height: auto;
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+    /* ............................................ */
+    .bannar {
+
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        width: 335px;
+        height: 483px;
+    }
+
+    nav p img {
+        position: static;
+        width: "20";
+    }
+
+    .bannar .bannar-title {
+
+        padding-top: 80px;
+        padding-left: 28px;
+        padding-right: 28px;
+        text-align: center;
+        font-size: large;
+    }
+
+    .bannar .bannar-describtion {
+        padding-left: 28px;
+        padding-right: 28px;
+        text-align: center;
+        font-size: small;
+    }
+
+    .bannar .input-nd-dropdown-field {
+        flex-direction: column;
+        padding-left: 45px;
+        padding-top: 0px;
+        margin-top: 0px;
+        /* width: 100%; */
+        height: auto;
+        width: 255px;
+        height: 52px;
+
+    }
+
+    .input-nd-dropdown-field .input-size {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+
+    }
+
+    .btn-primary {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-bottom: 20px;
+    }
+
+    .main-input {
+        width: 220px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-right: 24px;
+    }
+
+    /* ......................section 1................... */
+    .first-part .img-first {
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
+        margin-top: 0px;
+        /* margin-left: 20px; */
+        margin-right: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
 
     header {
         padding: 20px;
     }
 
+    .collage-img,
+    .row1,
+    .row2,
+    .row3 {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
 
 }
