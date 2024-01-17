@@ -7,9 +7,10 @@
 /* nav h2 {
     font-weight: 800;
 } */
-.ham{
+.ham {
     display: none;
 }
+
 .nav .orange-clr {
 
     color: #FF5400;
@@ -20,6 +21,11 @@
     font-weight: 800;
     font-size: 32px;
     /* font-weight: 800; */
+}
+
+.nav-two {
+    justify-content: space-evenly;
+    display: flex;
 }
 
 .nav {
@@ -34,6 +40,7 @@
     /* padding-top: 20px; */
     display: flex;
     /* align-items: center; */
+    /* display: inline-flex; */
 }
 
 .nav li a {
@@ -42,9 +49,9 @@
 
 .nav li {
     list-style: none;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding-right: 40px;
-
+    /* scroll-padding-inline-end:  50px; */
 
     font-size: 18px;
     font-weight: 400;
@@ -114,19 +121,15 @@ header {
 }
 
 .input-nd-dropdown-field {
-    border-radius: 10px;
-    padding-top: 50px;
-    padding-left: 185px;
-    padding-right: 185px;
-    display: flex;
+
     gap: 24px;
-    /* box-shadow:#FFFFFF ;
-    outline-offset: 20px;
-    outline-color: #FFFFFF;
-    border-color: #FFFFFF; */
-
-
-
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    margin-left: 185px;
+    margin-right: 185px;
 }
 
 
@@ -142,22 +145,10 @@ header {
     height: 52px;
     font-size: 16px;
     font-weight: 400;
+    /* padding-right: 24px; */
 }
 
-/* .when-select{
-    border: 0;
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-}
-.type-select{
-    border: 0;
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    color: rgba(19, 19, 24, 0.50);
-    padding-right: 20px;
-} */
+
 .input-size {
     border: 0;
     width: 174px;
@@ -165,20 +156,21 @@ header {
     border-radius: 8px;
     padding-left: 10px;
     color: rgba(19, 19, 24, 0.50);
-    padding-right: 20px;
+    padding-right: 24px;
     font-weight: 400;
     /* font-size: 1rem; */
     font-size: 16px;
 }
 
 .main-input {
+
     border: 0;
     width: 160px;
     height: 52px;
     border-radius: 8px;
     padding-left: 10px;
     color: rgba(19, 19, 24, 0.50);
-    padding-right: 20px;
+    padding-right: 24px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -281,7 +273,7 @@ header {
     padding-top: 10px;
     /* display:grid; */
     /* grid-template-columns: repeat(3,1fr); */
-    
+
 }
 
 .secound-part .row2 .row2-1st-img {
@@ -310,7 +302,7 @@ header {
     gap: 10px;
     padding-top: 10px;
 
-  
+
 }
 
 
@@ -322,7 +314,7 @@ header {
 .two-box {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
-    gap: 10px;
+    gap: 100px;
     display: flex;
 }
 
@@ -386,6 +378,7 @@ header {
     padding-top: 50px;
     width: 474px;
     height: 422px;
+    padding-left: 40px;
 }
 
 .f-title {
@@ -448,14 +441,14 @@ header {
     width: 324px;
     height: 120px;
     position: relative;
-    left:-270px;
-    top:265px;
+    left: -270px;
+    top: 265px;
     transform: rotate(-19.628deg);
 
     transform-origin: bottom right;
     /* bottom: -300px; */
     /* right: 3px; */
-  
+
     /* left: 2px; */
     border-radius: 16px;
     background: #FF5400;
@@ -473,36 +466,45 @@ header {
 
 /* 
 ........................footer part...................... */
-.footer{
+.footer {
     background: rgba(19, 19, 24, 0.05);
     width: 1500px;
-height: 502px;
-flex-shrink: 0;
-display: grid;
+    height: 502px;
+    flex-shrink: 0;
+    display: grid;
 }
-.footer-first-part{
+
+.footer-first-part {
     /* text-align: center; */
-    display:flex;
+    display: flex;
     align-items: center;
     margin: 50px 135px;
     padding-left: 450px;
 
-  
+
 }
 
-.footer-first-part img{
+.footer-first-part  p  img{
     /* padding-bottom: 30px; */
-    gap:0px;
+    /* gap: 0px;
+    padding-left: 450px; */
+
 }
+
 .footer-title {
     color: #131318;
 
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
-    /* padding-left: 450px; */
+    padding-left: 45px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    gap:0px;
+
+    position: relative;
+    top:-15px;
+
 }
 
 .o-color {
@@ -515,8 +517,9 @@ display: grid;
     font-weight: 800;
 
 }
-.footer-discription{
-    margin-left:  135px;
+
+.footer-discription {
+    margin-left: 195px;
     margin-right: 135px;
     padding-top: 0px;
     margin-top: 0px;
@@ -524,30 +527,40 @@ display: grid;
 
 }
 
-.footer-last-img-part{
+.footer-last-img-part {
     padding-top: 50px;
-    margin-left: 520px;
+    /* margin-left: 600px; */
+    padding-left: 600px;
 }
 
-.footer-last-part{
-    padding-top: 50px;
-    margin-left: 550px;
+.footer-last-part {
+    padding-top: 10px;
+    padding-left: 650px;
 }
-/* ...............for responsive ................... */
+
+.hr-style{
+    margin-top: 50px;
+    width: 872px;
+    height:1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+/* ...............for responsive ................... ...............................................*/
 @media screen and (max-width:600px) {
 
-    
 
-   .nav-two {
-    display:none;
-   }
-   .ham{
+
+    .nav .nav-two {
+        display: none;
+    }
+
+    .ham {
         width: 20px;
         height: 20px;
         display: flex;
     }
 
-    nav,
+    /* nav, */
     .first-part,
     .collage-img,
     .row1,
@@ -561,13 +574,23 @@ display: grid;
 
     .collage-img {
         height: auto;
-        /* width:100%; */
+        width: 100%;
         margin-right: 20px;
+
     }
 
-    /* .secound-part  .row2 {
-        grid-template-columns: 1fr;
-    } */
+  /* .........section 2................. */
+       
+  .secound-part  .snd-part-title{position: relative;
+    left:90px;
+    font-size: 30px;
+    font-weight:800;
+}
+.secound-part   .snd-descri{
+    position: relative;
+        left:90px;
+}
+  
     .row1 {
         width: 335px;
         /* height: 176px; */
@@ -581,17 +604,19 @@ display: grid;
         height: auto;
         flex-shrink: 0;
         flex-direction: column;
-        position:relative;
-    top:330px;
+        position: relative;
+        top: 330px;
     }
 
-    row3 {
+    .row3 {
         width: 335px;
         height: auto;
         flex-shrink: 0;
         flex-direction: column;
-        position:relative;
-   
+        position: relative;
+        top: 350px;
+        margin-bottom: 450px;
+
     }
 
     /* ............................................ */
@@ -627,20 +652,31 @@ display: grid;
 
     .bannar .input-nd-dropdown-field {
         flex-direction: column;
-        padding-left: 45px;
-        padding-top: 0px;
-        margin-top: 0px;
-        /* width: 100%; */
+
         height: auto;
         width: 255px;
-        height: 52px;
+
+        margin-left: 25px;
+
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        background-size: 287px 288px;
+        padding-bottom: 10px;
+        gap: 10px;
+
 
     }
+
+    /* .input-nd-dropdown-field  .form{
+        gap:30px; 
+         padding-block-end: 10px;
+    } */
 
     .input-nd-dropdown-field .input-size {
         width: 255px;
         height: 52px;
         flex-shrink: 0;
+        padding-bottom: 10px;
 
     }
 
@@ -648,7 +684,7 @@ display: grid;
         width: 255px;
         height: 52px;
         flex-shrink: 0;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 
     .main-input {
@@ -656,6 +692,8 @@ display: grid;
         height: 52px;
         flex-shrink: 0;
         padding-right: 24px;
+        padding-bottom: 10px;
+
     }
 
     /* ......................section 1................... */
@@ -672,11 +710,30 @@ display: grid;
     .two-box {
         /* grid-template-columns: repeat(1,1fr); */
         flex-direction: column;
+        gap: 20px;
     }
 
     .box3-third-part {
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 0px;
+
+    }
+
+    .third-part .snd-part-title {
+        margin-top: 50px;
+        justify-content: center;
+        
+        font-size: 30px;
+      font-weight:800;
+      position: relative;
+      left:90px;
+    }
+    .third-part  .snd-descri{
+        justify-content: center;
+        font-size:20px ;
+        font-weight:400;
+       position: relative;
+       left:100px;
     }
 
     /* ..........section forth........... */
@@ -690,64 +747,75 @@ display: grid;
         margin-right: 50px;
         padding-left: 150px;
     }
-    .sale-70{
-        position:relative;
-        top:-230px;
+
+    .sale-70 {
+        position: relative;
+        top: -230px;
         left: 300px;
     }
-/* ..........footer..... */
-.footer{
-    width: 600px;
-    height: 422px;
-flex-shrink: 0;
 
-margin-right: 200px;
-/* padding-left: 150px; */
+    /* ..........footer..... */
+    .footer {
+        width: 600px;
+        height: 422px;
+        flex-shrink: 0;
 
-}
-/* .footer-first-part img{
-    margin-right: 200px; 
-} */
-.footer{
-    grid-template-columns: 1fr;
-margin-top: 150px;
-}
+        margin-right: 200px;
+        /* padding-left: 150px; */
 
-.footer-first-part .footer-title{
-    margin-left: 0px;
-    padding-left: 0px;
-    position :relative;
-    left:-350px;
-    /* right:50px; */
-}
- .footer-discription{
-    margin-left: 50px;
-    padding-left: 0px;
-    position :relative;
-    /* left:-30px; */
-    right:auto;
-}
-.footer-last-img-part{
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-left: 50px;
-    padding-left: 0px;
-    position :relative;
-    /* left:-30px; */
-    right:auto;
-    width:100px;
-    height: 50px;
-}
+    }
 
-.footer-last-part{
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-left: 210px;
-    padding-left: 0px;
-    position :relative;
-    /* left:-30px; */
-    right:auto;
+ 
+    .footer {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+    .footer-first-part .footer-title {
+        margin-left: 0px;
+        padding-left: 0px;
+        position: relative;
+        left: -350px;
+        /* right:50px; */
+    }
+
+    .footer-discription {
+        margin-left: 50px;
+        padding-left: 0px;
+        position: relative;
+
+        top:-80px;
+        /* left:-30px; */
+        right: auto;
+    }
+
+    .footer-last-img-part {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 70px;
+        padding-left: 70px;
+        position: relative;
+        top:-80px;
+        /* left:-30px; */
+        
+        width: 100px;
+        height: 50px;
+    }
+.hr-style{
+    position: relative;
+    top:-100px;
+    width:500px;
+    left:-105px;
 }
+    .footer-last-part {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 210px;
+        padding-left: 0px;
+        position: relative;
+        top:-90px;
+        right: auto;
+    }
 }
 
 
@@ -776,8 +844,8 @@ margin-top: 150px;
         margin-left: 0px;
     }
 
-    .footer{
-        display:grid;
+    .footer {
+        display: grid;
     }
 
 }
